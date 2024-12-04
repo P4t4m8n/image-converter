@@ -1,0 +1,22 @@
+{
+  "name": "image-converter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve --mode=development --stats-children",
+    "build": "webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "@wasm-tool/wasm-pack-plugin": "^1.7.0",
+    "html-webpack-plugin": "^5.6.3",
+    "webpack": "^5.97.0",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
